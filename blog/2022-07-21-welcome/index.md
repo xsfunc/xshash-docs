@@ -7,7 +7,7 @@ tags: [nft, fxhash]
 
 Path — my first collection of 128 editions on [fxhash.xyz](https://www.fxhash.xyz/generative/slug/path)
 
-It consists of tree compositions:
+It consists of three compositions:
 - Forest
 - Desert
 - Bridge with train
