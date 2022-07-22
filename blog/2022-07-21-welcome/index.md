@@ -16,6 +16,8 @@ Each composition has few common features like time of day, weather, etc and rare
 
 ![Path #103](./path103.png)
 
+I decided to add top 30 donators on [xshash.xyz](https://xshash.xyz) to whitelist and give them NFT for free. So there was a specific DA from 64 to 0.
+
 Usually artists use libraries like [p5.js](https://p5js.org) but I went the other ~~path~~ way. In my first work I try to draw nature with svg primitives like circle, square, line (path in svg) and filters like blur. I deliberately didn't use complex mathematical calculations and algorithms.
 
 Why did I do this? Because I didn't study math at school 😆. I'm most likely not alone in this regard. So, I planning to create some util packages and simple tutorials for community. So that everyone can try themselves as an artist without delving into complex algorithms.
