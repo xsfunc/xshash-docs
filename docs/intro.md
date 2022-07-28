@@ -1,47 +1,46 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Welcome
+# Getting Started
+This page is an overview of the xsHash documentation and related resources.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**xsHash** is website with advanced features for [fxhash.xyz](https://fxhash.xyz). Try tools on [xsHash.xyz](https://xshash.xyz) right now or keep learning.
 
-## Getting Started
+#### Main features 
+- [Mint tokens](#mint) dashboard
+- [Last sales](#last) and [fresh listings](#last)
+- [Reserved list](#reserves) for multiple addresses
+- [Batch listing](#batch) and [relistings](#batch)
 
-Get started by **creating a new site**.
+#### Additional features
+- [Custom gas](#custom-gas) and [notifications](#notifications) for donators
+- [Realtime gas stats and mint analytics](#nft-holders) for NFT holders
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Mint tokens {#mint}
+Realtime data about progress on [mint page](https://xshash.xyz/mint) without delays. You can filter tokens by your following list, by addresses or ids. Check trends, buy fast, buy first. 
 
-### What you'll need
+### Last sales and fresh listings {#last}
+Check the latest sales to know what's trending right now. Follow fresh listings to collect best items first. 
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Reserved list {#reserves}
+Сheck that you are on whitelist for several addresses at once. You can paste all connected wallets or add custom addresses. Browser saves data, so you don't have to paste addresses every time.
 
-## Generate a new site
+### Batch operations {#batch}
+It is very tedious to relist tokens one by one. Batch listing, relisting and transfering save you time a lot. You will definitely love this feature.
 
-Generate a new Docusaurus site using the **classic template**.
+### Custom gas {#custom-gas}
+If you want to mint faster than others, you need set more gas so that your transaction is completed before others. This function allows you to set gas in advance and you will only have to confirm transaction in wallet. 
 
-The classic template will automatically be added to your project after you run the command:
+### Notifications {#notifications}
+When someone upload NFT on fxhash you will receive a sound notification.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### NFTs by xsfunc utility {#nft-holders}
+[My NFTs](https://www.fxhash.xyz/u/xsfunc) holders get access to additional features:
+- Mempool gas stats
+- Mint history stats
+- Token analitycs
+- More...
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+More features in future. Read about utility [here](./nft-holdes/utility).

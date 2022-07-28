@@ -14,14 +14,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
-  // projectName: 'docusaurus', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -31,22 +23,12 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
-
-        // {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   // editUrl:
-        //   // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
-        blog: {
+        docs: {
           routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
+        },
+        blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,18 +47,13 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorials',
-          // },
-          { to: '/', label: 'Posts', position: 'left' },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Docs',
+          },
+          { to: '/blog', label: 'Posts', position: 'left' },
         ],
       },
       footer: {
@@ -87,7 +64,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/',
+                to: '/blog',
               },
             ],
           },
@@ -104,12 +81,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'fxhash profile',
+                label: 'xsfunc on fxhash.xyz',
                 href: 'https://fxhash.xyz/u/xsfunc',
               },
               {
-                label: 'xsHash tools',
-                href: 'https://fxhash.netlify.app/',
+                label: 'xshash.xyz',
+                href: 'https://xshash.xyz/',
               },
             ],
           },
